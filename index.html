@@ -22,7 +22,7 @@
         <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" onsubmit="beforeSubmit(event)">
         <input type=hidden name='captcha_settings' value='{"keyname":"WebToLead","fallback":"true","orgId":"00D5g00000LNkpr","ts":""}'>
         <input type=hidden name="oid" value="00D5g00000LNkpr">
-        <input type=hidden name="retURL" value="">
+        <input type=hidden name="retURL" value="https://trailhead.salesforce.com/today">
         <input type=hidden name="Lead_Data__c" class="outputdate">
 
         <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" required="true"/><br>
@@ -33,7 +33,7 @@
         
         <!-- Lead Date:<span class="dateInput dateOnlyInput"><input  id="00NGC00000bilkC" name="00NGC00000bilkC" size="12" type="text" /></span><br> -->
 
-        <label for="email">Lead Data</label>
+        <label for="email">Lead Date</label>
         <input type="date" required="true" class="inputdate">
         
         <input type="submit" name="submit" class="submitclass">
