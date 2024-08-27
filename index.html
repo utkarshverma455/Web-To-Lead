@@ -20,7 +20,7 @@
         <!-- <form action="" method="POST" onsubmit="beforeSubmit()"> -->
 
         <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" onsubmit="beforeSubmit(event)">
-                <input type=hidden name='captcha_settings' value='{"keyname":"WebToLead","fallback":"true","orgId":"00D5g00000LNkpr","ts":""}'>
+        <input type=hidden name='captcha_settings' value='{"keyname":"WebToLead","fallback":"true","orgId":"00D5g00000LNkpr","ts":""}'>
         <input type=hidden name="oid" value="00D5g00000LNkpr">
         <input type=hidden name="retURL" value="">
         <input type=hidden name="Lead_Data__c" class="outputdate">
@@ -37,8 +37,8 @@
         <input type="date" required="true" class="inputdate">
         
         <input type="submit" name="submit" class="submitclass">
+        <!--data-callback logic is applied  by me. Used once user checks the re-CAPTCHA-->
         <div class="g-recaptcha" data-callback= "capsuccess" data-sitekey="6Ldb3i8qAAAAAEvWSkpCYHsi6kjOmOiJjgBclfIF"></div><br>
-
         </form>
 </body>
 </html>
