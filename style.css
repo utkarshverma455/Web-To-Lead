@@ -16,8 +16,9 @@ label{
 .submitclass{
         margin: 15px auto 0 auto;
         width: 40%;
-        background-color: blueviolet;
-        border-radius: 5px;
+        height: 10px;
+        background-color: greenyellow;
+        border-radius: 3px;
 }
 form{
         min-width: 300px;

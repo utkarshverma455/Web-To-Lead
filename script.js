@@ -1,5 +1,5 @@
 let capchecked = false;
-function beforeSubmit() {
+function beforeSubmit(event) {
         if (capchecked) {
                 let inputdate = document.querySelector(".inputdate");
                 let outputdate = document.querySelector(".outputdate");
