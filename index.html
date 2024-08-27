@@ -19,10 +19,10 @@
 
         <!-- <form action="" method="POST" onsubmit="beforeSubmit()"> -->
 
-        <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" onsubmit="beforeSubmit(event)">
-        <input type=hidden name='captcha_settings' value='{"keyname":"WebToLead","fallback":"true","orgId":"00D5g00000LNkpr","ts":""}'>
+        <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D5g00000LNkpr" method="POST" onsubmit="beforeSubmit(event)">
+        <input type=hidden name='captcha_settings' value='{"keyname":"WebToLeadNEW","fallback":"true","orgId":"00D5g00000LNkpr","ts":""}'>
         <input type=hidden name="oid" value="00D5g00000LNkpr">
-        <input type=hidden name="retURL" value="https://trailhead.salesforce.com/today">
+        <input type=hidden name="retURL" value="">
         <input type=hidden name="Lead_Data__c" class="outputdate">
 
         <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" required="true"/><br>
@@ -38,7 +38,7 @@
         
         <input type="submit" name="submit" class="submitclass">
         <!--data-callback logic is applied  by me. Used once user checks the re-CAPTCHA-->
-        <div class="g-recaptcha" data-callback= "capsuccess" data-sitekey="6Ldb3i8qAAAAAEvWSkpCYHsi6kjOmOiJjgBclfIF"></div><br>
+        <div class="g-recaptcha" data-callback= "capsuccess" data-sitekey="6LcSIjAqAAAAAIwzl-OqQk0A4Vu7QTh-c3Gjwc2n"></div><br>
         </form>
 </body>
 </html>
